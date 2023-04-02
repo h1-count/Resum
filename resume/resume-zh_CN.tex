@@ -1,0 +1,89 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{侯孟敏}
+
+\basicInfo{
+  \email{ 1840686224@qq.com} \textperiodcentered\ 
+  \phone{ 188 5111 7990} \textperiodcentered\ 
+  }
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{南京财经大学}, 南京}{2020 -- 至今}
+\textit{在读本科生}\ 计算机科学与技术, 预计 2024 年 7 月毕业
+
+\section{\faUsers\ 实习/项目经历}
+\datedsubsection{\textbf{点餐小程序}}{2022年12月 -- 2023年3月}
+\role{HTML,CSS,JavaScript}{团队项目}
+前端开发 https://github.com/h1-count/Wechat-mini-program
+\begin{itemize}
+  \item 使用微信开发者工具
+  \item 实现了 窗口浏览，页面切换等功能
+  \item 点餐、候餐等页面
+\end{itemize}
+
+\datedsubsection{\textbf{软件开发--五子棋}}{2022年10月 -- 2022年12月}
+\role{C\#, Windows}{个人项目}
+\begin{onehalfspacing}
+软件开发案例--五子棋, https://github.com/h1-count/Gobang
+\begin{itemize}
+  \item 使用C\#语言，Windows窗体应用(.NET Framework)，用于创建具有Windows窗体(WinForms)用户界面的应用程序的项目
+  \item 创建了登录和下棋界面等窗体，可以实现基本的轮流下棋、悔棋、重开一局等功能
+  \item 通过连接到数据库，实现登录用户的实时刷新，可以自由挑选对手下棋，并在窗体上方显示下棋双方用户名以及最后一颗棋子的落子人
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{天气APP}}{2022 年3月 -- 2022年4月}
+\role{Kotlin, Android开发}{个人项目}
+\begin{onehalfspacing}
+基于彩云开发的天气APP, https://github.com/h1-count/SunnyWeather
+\begin{itemize}
+  \item 登陆彩云科技开放平台获取token
+  \item 使用Kotlin语言，Android Studio进行应用开发
+  \item 实现了城市切换，天气查询，天气预报，生活指数等功能
+\end{itemize}
+\end{onehalfspacing}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: Python > Java > C > Kotlin
+  \item 平台: Windows
+\end{itemize}
+
+\section{\faHeartO\ 获奖情况}
+\datedline{\textit{三等奖}, 挑战杯大学生创业 大赛选拔赛}{2023 年2 月}
+\datedline{\textit{三等奖}, 第十九届五一数学建模 竞赛}{2022 年6 月}
+\datedline{\textit{铜奖}, 南京财经大学大学生创业计划 竞赛}{2022 年4 月}
+\datedline{\textit{一等奖}, 南京财经大学第七届“互联网+”大学生创新创业 校赛}{2021 年10 月}
+\datedline{\textit{三等奖}, 大学生计算机设计大赛 校赛决赛}{2021 年4 月}
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item GitHub: https://github.com/h1-count
+  \item 语言: 英语 - 一般(六级 459)
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
